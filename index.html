@@ -3,65 +3,108 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Basic Html</title>
+  <title>Portfolio | Harshad Kasar</title>
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <div class="container">
 
-
+    
     <header>
-    <h1>Harshad Balshiram Kasar</h1>
-    <h3>Software Developer</h3>
+      <h1>Harshad Balshiram Kasar</h1>
+      <h3>Software Developer</h3>
     </header>
 
-    <div>
-      <h3>Career Objective:</h3>
-      <p>
-        Motivated Computer Engineering graduate aiming to launch a career in
-        Software Development by contributing to innovative projects, learning
-        continuously, and delivering robust solutions.
-      </p>
-    </div>
+   
+    <nav class="navbar">
+      <a href="#career">About Me</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Technical Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-    <div class="navabar">
-      <nav>
-        <section><h1>Education</h1></section>
-        <div>Bachelor of Engineering</div>
+ <main>
+    <section id="career" class="card about">
+      <h2>About Me</h2>
+        <p>
+          Hello, my name is Harshad, and I have done Bachelor’s degree in Computer Science from Savitribai Phule Pune University (SPPU), India. I am a passionate full-stack web developer with a strong interest in building responsive, user-friendly, and engaging web applications.
+        </p>
+        <p>
+          I am eager to continuously learn and adapt to emerging technologies while enhancing my expertise in both front-end and back-end development. My goal is to design and develop websites and applications that not only meet industry standards but also deliver exceptional user experiences.
+        </p>
+    </section>
 
-        <section><h1>Technical Skill</h1></section>
-        <li class="techlist">
-          <ul>HTML</ul>
-          <ul>CSS</ul>
-          <ul>JavaScript</ul>
-          <ul>React.js</ul>
-          <ul>Node.js</ul>
-          <ul>Java</ul>
-          <ul>SQL</ul>
-        </li>
+ 
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <p><strong>Bachelor of Engineering</strong> – Computer Science (SPPU, Pune)</p>
+    </section>
 
-        <section><h1>Project</h1></section>
-        <li>
-          <ul>E-commerce web app</ul>
-          <ul>Travel Management System</ul>
-          <ul>Full Stack Todo Application</ul>
-        </li>
+    
+    <section id="skills" class="card">
+      <h2>Technical Skills</h2>
+      <ul class="list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>React.js</li>
+        <li>Node.js</li>
+        <li>Java</li>
+        <li>SQL</li>
+      </ul>
+    </section>
 
-        <section><h1>Experience</h1></section>
-        <p>Fresher – Looking for exciting opportunities!</p>
 
-       
-        <section id="contact">
-          <h2>Contact</h2>
-          <p>Email: <a href="mailto:harshadkasar9819@gmail.com">harshadkasar9819@gmail.com</a></p>
-          <p>GitHub: <a href="https://github.com/Harshadkasar14" target="_blank">github.com/Harshadkasar14</a></p>
-          <p>LinkedIn: <a href="https://linkedin.com/in/harshad-kasar" target="_blank">linkedin.com/in/harshad-kasar</a></p>
-        </section>
-      </nav>
-    </div>
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-box">
+          <article>
+            <h3>E-commerce Web App</h3>
+            <p>A MERN full-stack project, this e-commerce web application uses authentication, sign-in, and sign-up features. Users can conduct    needs and wants-based searches for products, add them to carts, and then complete the purchase later</p>
+          </article>
+        </div>
+        <div class="project-box">
+          <article>
+            <h3>Travel Management System</h3>
+            <p>Created a system for booking and managing tours with integrated database and user dashboard.</p>
+          </article>
+        </div>
+        <div class="project-box">
+          <article>
+            <h3>Full Stack Todo Application</h3>
+            <p>Built a responsive todo app with CRUD features, React frontend, and Spring Boot backend.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+ 
+    <section id="experience" class="card">
+      <h2>Experience</h2>
+        <p><strong>Avirait Technologies Pvt Ltd</strong></p>
+        <p>Fullstack Developer Intern</p>
+        <aside>Feb 2025 - June 2025</aside>
+    </section>
+    
+ </main>
+
 
    
-    <footer>@2025 Harshad Kasar</footer>
+    <aside id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Mobile: <a href="">+91 9021423563</a></p>
+      <p>Email: <a href="mailto:harshadkasar9819@gmail.com">harshadkasar9819@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/Harshadkasar14" target="_blank">github.com/Harshadkasar14</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/harshad-kasar" target="_blank">linkedin.com/in/harshad-kasar</a></p>
+    </aside>
+
+    
+    <footer>
+    Thank you for visiting my portfolio!
+    </footer>
   </div>
 </body>
 </html>
